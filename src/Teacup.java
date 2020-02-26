@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Teacup implements Chattable{
 
-public class Teacup {
+    @Override
+    public String chat() {
+        return "Hi, I'm a teacup!";
+    }
 }
